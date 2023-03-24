@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react'
 
+/**
+ * returns the data from the API using the url
+ * @param {string} url 
+ * @returns 
+ */
 function useFetchDataProducts(url) {
     const [data, setData] = useState([]);
     useEffect(() => {
